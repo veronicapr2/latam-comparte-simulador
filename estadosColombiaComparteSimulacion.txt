@@ -1,0 +1,640 @@
+POSIBLES ESTADOS DEL SISTEMA 
+
+S0 - Header - Logo
+S1 - Header - Inicio
+S2 - Header - Sobre nosotros
+S3 - Header - Programas
+S4 - Header - Programas - Programa Edifica
+S5 - Header - Programas - Top Speakers
+S6 - Header - Actualidad
+S7 - Header - Contáctanos
+S8 - Header - Tu aula
+S9 - Header - Donaciones
+
+S10 - Footer - YouTube
+S11 - Footer - LinkedIn
+S12 - Footer - TikTok
+S13 - Footer - Instagram
+S14 - Footer - Facebook
+S15 - Footer - Inicio
+S16 - Footer - Quiénes somos
+S17 - Footer - Programa Edifica
+S18 - Footer - Shows y conferencias
+S19 - Footer - Blog
+S20 - Footer - Noticias
+S21 - Footer - Contacto
+S22 - Footer - Donaciones
+S23 - Footer - Solicitudes DIAN
+
+S24 - Inicio - Carrusel - Quiero emprender
+S25 - Inicio - Carrusel - Conócenos
+S26 - Inicio - Carrusel - Quiero más información
+S27 - Inicio - A quiénes apoyamos - Personas y familias en procesos de reconstrucción económica
+S28 - Inicio - A quiénes apoyamos - Emprendedores que quieren crear o fortalecer su negocio
+S29 - Inicio - A quiénes apoyamos - Empresas comprometidas con su gente
+S30 - Inicio - Nuestra misión en acción - Conócenos
+S31 - Inicio - Carrusel de testimonios 1
+S32 - Inicio - Carrusel de testimonios 2
+S33 - Inicio - Carrusel de testimonios 3
+S34 - Inicio - Carrusel de testimonios 4
+S35 - Inicio - Carrusel de testimonios 5
+S36 - Inicio - Carrusel de testimonios 6
+S37 - Inicio - Carrusel de testimonios 7
+S38 - Inicio - Carrusel de testimonios 8
+S39 - Inicio - Directorio de emprendedores
+S40 - Inicio - Noticias - Ver más
+S41 - Inicio - Noticias 1
+S42 - Inicio - Noticias 2
+S43 - Inicio - Noticias 3
+S44 - Inicio - Noticias 4
+S45 - Inicio - Noticias 5
+S46 - Inicio - Noticias 6
+
+S47 - Sobre nosotros - A quiénes apoyamos - Ver más
+S48 - Sobre nosotros - Programa Edifica 1
+S49 - Sobre nosotros - Programa Edifica 2
+S50 - Sobre nosotros - Contáctanos
+
+S51 - Programa Edifica - Video 1
+S52 - Programa Edifica - Inscríbete
+S53 - Top Speakers - Página principal
+S54 - Top Speakers - Ver más información
+S55 - Top Speakers - Contáctanos
+
+S56 - Actualidad - Noticias 1
+S57 - Actualidad - Noticias 2
+S58 - Actualidad - Noticias 3
+S59 - Actualidad - Noticias 4
+S60 - Actualidad - Noticias 5
+S61 - Actualidad - Noticias 6
+
+S62 - Detalle de noticia X - Home
+S63 - Detalle de noticia X - Noticias / Regresar a la sección de noticias
+S64 - Detalle de noticia X - Colombia Comparte / Inicio
+S65 - Detalle de noticia X - Noticias / Regresar a la sección de noticias duplicado
+S66 - Detalle de noticia X - Blog
+S67 - Detalle de noticia X - Noticias
+S68 - Detalle de noticia X - Publicación reciente 1
+S69 - Detalle de noticia X - Publicación reciente 2
+S70 - Detalle de noticia X - Publicación reciente 3
+S71 - Detalle de noticia X - Facebook
+S72 - Detalle de noticia X - Instagram
+S73 - Detalle de noticia X - LinkedIn
+S74 - Detalle de noticia X - YouTube
+
+S75 - Contacto - Nombre
+S76 - Contacto - Correo electrónico
+S77 - Contacto - Teléfono
+S78 - Contacto - Servicio - Programa Edifica
+S79 - Contacto - Servicio - Shows y conferencias
+S80 - Contacto - Mensaje
+S81 - Contacto - Botón Contáctanos - Enviar formulario
+S82 - Contacto - Botón Contáctanos - No enviar formulario
+
+S83 - Tu aula - Nombre de usuario o correo electrónico
+S84 - Tu aula - Contraseña
+S85 - Tu aula - Mantenerme conectado - Activar opción
+S86 - Tu aula - Mantenerme conectado - No activar opción
+S87 - Tu aula - Acceder
+S88 - Tu aula - ¿Has olvidado tu contraseña?
+S89 - Tu aula - Restablecer contraseña
+
+S90 - Donaciones - Formulario de donación
+S91 - Donaciones - Hacer donación
+S92 - Donaciones - Enviar donación
+
+S93 - Abandonar página
+S94 - Sistema - Salida a red social externa
+S95 - Sistema - Salida a enlace externo
+S96 - Sistema - Fin de recorrido dentro del sitio
+
+S97 - Contacto - Envío de formulario exitoso
+S98 - Contacto - Envío de formulario fallido
+S99 - Contacto - Envío de formulario interrumpido
+S100 - Contacto - Formulario incompleto
+S101 - Contacto - Usuario abandona formulario
+
+S102 - Donaciones - Envío de donación exitoso
+S103 - Donaciones - Envío de donación fallido
+S104 - Donaciones - Envío de donación interrumpido
+S105 - Donaciones - Formulario de donación incompleto
+S106 - Donaciones - Usuario abandona formulario de donación
+
+S107 - Tu aula - Acceso exitoso
+S108 - Tu aula - Acceso denegado
+S109 - Tu aula - Credenciales incompletas
+S110 - Tu aula - Usuario abandona inicio de sesión
+
+S111 - Tu aula - Restablecimiento de contraseña exitoso
+S112 - Tu aula - Restablecimiento de contraseña fallido
+S113 - Tu aula - Restablecimiento de contraseña interrumpido
+S114 - Tu aula - Usuario abandona recuperación de contraseña
+
+POSIBLES RUTAS DE ESTADOS
+
+LISTADO COMPLETO DE RECORRIDOS DE ESTADOS DEL SISTEMA
+Omitiendo recorridos bucle.
+
+C0 - S0 → S93
+C1 - S1 → S93
+C2 - S2 → S93
+C3 - S3 → S93
+C4 - S4 → S93
+C5 - S5 → S93
+C6 - S6 → S93
+C7 - S7 → S93
+C8 - S8 → S93
+C9 - S9 → S93
+C10 - S10 → S93
+C11 - S11 → S93
+C12 - S12 → S93
+C13 - S13 → S93
+C14 - S14 → S93
+C15 - S15 → S93
+C16 - S16 → S93
+C17 - S17 → S93
+C18 - S18 → S93
+C19 - S19 → S93
+C20 - S20 → S93
+C21 - S21 → S93
+C22 - S22 → S93
+C23 - S23 → S93
+C24 - S24 → S93
+C25 - S25 → S93
+C26 - S26 → S93
+C27 - S27 → S93
+C28 - S28 → S93
+C29 - S29 → S93
+C30 - S30 → S93
+C31 - S31 → S93
+C32 - S32 → S93
+C33 - S33 → S93
+C34 - S34 → S93
+C35 - S35 → S93
+C36 - S36 → S93
+C37 - S37 → S93
+C38 - S38 → S93
+C39 - S39 → S93
+C40 - S40 → S93
+C41 - S41 → S93
+C42 - S42 → S93
+C43 - S43 → S93
+C44 - S44 → S93
+C45 - S45 → S93
+C46 - S46 → S93
+C47 - S47 → S93
+C48 - S48 → S93
+C49 - S49 → S93
+C50 - S50 → S93
+C51 - S51 → S93
+C52 - S52 → S93
+C53 - S53 → S93
+C54 - S54 → S93
+C55 - S55 → S93
+C56 - S56 → S93
+C57 - S57 → S93
+C58 - S58 → S93
+C59 - S59 → S93
+C60 - S60 → S93
+C61 - S61 → S93
+C62 - S62 → S93
+C63 - S63 → S93
+C64 - S64 → S93
+C65 - S65 → S93
+C66 - S66 → S93
+C67 - S67 → S93
+C68 - S68 → S93
+C69 - S69 → S93
+C70 - S70 → S93
+C71 - S71 → S93
+C72 - S72 → S93
+C73 - S73 → S93
+C74 - S74 → S93
+C75 - S75 → S93
+C76 - S76 → S93
+C77 - S77 → S93
+C78 - S78 → S93
+C79 - S79 → S93
+C80 - S80 → S93
+C81 - S81 → S93
+C82 - S82 → S93
+C83 - S83 → S93
+C84 - S84 → S93
+C85 - S85 → S93
+C86 - S86 → S93
+C87 - S87 → S93
+C88 - S88 → S93
+C89 - S89 → S93
+C90 - S90 → S93
+C91 - S91 → S93
+C92 - S92 → S93
+C93 - S10 → S94
+C94 - S11 → S94
+C95 - S12 → S94
+C96 - S13 → S94
+C97 - S14 → S94
+C98 - S71 → S94
+C99 - S72 → S94
+C100 - S73 → S94
+C101 - S74 → S94
+C102 - S23 → S95
+C103 - S1 → S24 → S96
+C104 - S1 → S25 → S96
+C105 - S1 → S26 → S96
+C106 - S1 → S27 → S96
+C107 - S1 → S28 → S96
+C108 - S1 → S29 → S96
+C109 - S1 → S30 → S2 → S96
+C110 - S1 → S30 → S96
+C111 - S1 → S31 → S96
+C112 - S1 → S32 → S96
+C113 - S1 → S33 → S96
+C114 - S1 → S34 → S96
+C115 - S1 → S35 → S96
+C116 - S1 → S36 → S96
+C117 - S1 → S37 → S96
+C118 - S1 → S38 → S96
+C119 - S1 → S31 → S32 → S33 → S34 → S35 → S36 → S37 → S38 → S96
+C120 - S1 → S39 → S96
+C121 - S1 → S40 → S6 → S96
+C122 - S1 → S40 → S56 → S96
+C123 - S1 → S41 → S62 → S96
+C124 - S1 → S41 → S62 → S63 → S6 → S96
+C125 - S1 → S41 → S62 → S64 → S1 → S96
+C126 - S1 → S41 → S62 → S65 → S6 → S96
+C127 - S1 → S41 → S62 → S66 → S19 → S96
+C128 - S1 → S41 → S62 → S67 → S6 → S96
+C129 - S1 → S41 → S62 → S68 → S62 → S96
+C130 - S1 → S41 → S62 → S69 → S62 → S96
+C131 - S1 → S41 → S62 → S70 → S62 → S96
+C132 - S1 → S41 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C133 - S1 → S41 → S62 → S71 → S94
+C134 - S1 → S41 → S62 → S72 → S94
+C135 - S1 → S41 → S62 → S73 → S94
+C136 - S1 → S41 → S62 → S74 → S94
+C137 - S1 → S41 → S62 → S93
+C138 - S1 → S42 → S62 → S96
+C139 - S1 → S42 → S62 → S63 → S6 → S96
+C140 - S1 → S42 → S62 → S64 → S1 → S96
+C141 - S1 → S42 → S62 → S65 → S6 → S96
+C142 - S1 → S42 → S62 → S66 → S19 → S96
+C143 - S1 → S42 → S62 → S67 → S6 → S96
+C144 - S1 → S42 → S62 → S68 → S62 → S96
+C145 - S1 → S42 → S62 → S69 → S62 → S96
+C146 - S1 → S42 → S62 → S70 → S62 → S96
+C147 - S1 → S42 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C148 - S1 → S42 → S62 → S71 → S94
+C149 - S1 → S42 → S62 → S72 → S94
+C150 - S1 → S42 → S62 → S73 → S94
+C151 - S1 → S42 → S62 → S74 → S94
+C152 - S1 → S42 → S62 → S93
+C153 - S1 → S43 → S62 → S96
+C154 - S1 → S43 → S62 → S63 → S6 → S96
+C155 - S1 → S43 → S62 → S64 → S1 → S96
+C156 - S1 → S43 → S62 → S65 → S6 → S96
+C157 - S1 → S43 → S62 → S66 → S19 → S96
+C158 - S1 → S43 → S62 → S67 → S6 → S96
+C159 - S1 → S43 → S62 → S68 → S62 → S96
+C160 - S1 → S43 → S62 → S69 → S62 → S96
+C161 - S1 → S43 → S62 → S70 → S62 → S96
+C162 - S1 → S43 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C163 - S1 → S43 → S62 → S71 → S94
+C164 - S1 → S43 → S62 → S72 → S94
+C165 - S1 → S43 → S62 → S73 → S94
+C166 - S1 → S43 → S62 → S74 → S94
+C167 - S1 → S43 → S62 → S93
+C168 - S1 → S44 → S62 → S96
+C169 - S1 → S44 → S62 → S63 → S6 → S96
+C170 - S1 → S44 → S62 → S64 → S1 → S96
+C171 - S1 → S44 → S62 → S65 → S6 → S96
+C172 - S1 → S44 → S62 → S66 → S19 → S96
+C173 - S1 → S44 → S62 → S67 → S6 → S96
+C174 - S1 → S44 → S62 → S68 → S62 → S96
+C175 - S1 → S44 → S62 → S69 → S62 → S96
+C176 - S1 → S44 → S62 → S70 → S62 → S96
+C177 - S1 → S44 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C178 - S1 → S44 → S62 → S71 → S94
+C179 - S1 → S44 → S62 → S72 → S94
+C180 - S1 → S44 → S62 → S73 → S94
+C181 - S1 → S44 → S62 → S74 → S94
+C182 - S1 → S44 → S62 → S93
+C183 - S1 → S45 → S62 → S96
+C184 - S1 → S45 → S62 → S63 → S6 → S96
+C185 - S1 → S45 → S62 → S64 → S1 → S96
+C186 - S1 → S45 → S62 → S65 → S6 → S96
+C187 - S1 → S45 → S62 → S66 → S19 → S96
+C188 - S1 → S45 → S62 → S67 → S6 → S96
+C189 - S1 → S45 → S62 → S68 → S62 → S96
+C190 - S1 → S45 → S62 → S69 → S62 → S96
+C191 - S1 → S45 → S62 → S70 → S62 → S96
+C192 - S1 → S45 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C193 - S1 → S45 → S62 → S71 → S94
+C194 - S1 → S45 → S62 → S72 → S94
+C195 - S1 → S45 → S62 → S73 → S94
+C196 - S1 → S45 → S62 → S74 → S94
+C197 - S1 → S45 → S62 → S93
+C198 - S1 → S46 → S62 → S96
+C199 - S1 → S46 → S62 → S63 → S6 → S96
+C200 - S1 → S46 → S62 → S64 → S1 → S96
+C201 - S1 → S46 → S62 → S65 → S6 → S96
+C202 - S1 → S46 → S62 → S66 → S19 → S96
+C203 - S1 → S46 → S62 → S67 → S6 → S96
+C204 - S1 → S46 → S62 → S68 → S62 → S96
+C205 - S1 → S46 → S62 → S69 → S62 → S96
+C206 - S1 → S46 → S62 → S70 → S62 → S96
+C207 - S1 → S46 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C208 - S1 → S46 → S62 → S71 → S94
+C209 - S1 → S46 → S62 → S72 → S94
+C210 - S1 → S46 → S62 → S73 → S94
+C211 - S1 → S46 → S62 → S74 → S94
+C212 - S1 → S46 → S62 → S93
+C213 - S1 → S2 → S47 → S96
+C214 - S1 → S2 → S47 → S27 → S96
+C215 - S1 → S2 → S47 → S28 → S96
+C216 - S1 → S2 → S47 → S29 → S96
+C217 - S1 → S2 → S48 → S51 → S96
+C218 - S1 → S2 → S48 → S52 → S96
+C219 - S1 → S2 → S49 → S51 → S96
+C220 - S1 → S2 → S49 → S52 → S96
+C221 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S97
+C222 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S98
+C223 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S99
+C224 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S78 → S80 → S82 → S100
+C225 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S78 → S80 → S101
+C226 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S97
+C227 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S98
+C228 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S99
+C229 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S79 → S80 → S82 → S100
+C230 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S79 → S80 → S101
+C231 - S1 → S2 → S50 → S7 → S75 → S100
+C232 - S1 → S2 → S50 → S7 → S75 → S76 → S100
+C233 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S100
+C234 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S78 → S100
+C235 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S79 → S100
+C236 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S78 → S80 → S100
+C237 - S1 → S2 → S50 → S7 → S75 → S76 → S77 → S79 → S80 → S100
+C238 - S1 → S3 → S96
+C239 - S1 → S3 → S4 → S96
+C240 - S1 → S3 → S5 → S96
+C241 - S1 → S3 → S4 → S51 → S96
+C242 - S1 → S3 → S4 → S52 → S96
+C243 - S1 → S3 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S81 → S97
+C244 - S1 → S3 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S81 → S98
+C245 - S1 → S3 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S81 → S99
+C246 - S1 → S3 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S82 → S100
+C247 - S1 → S3 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S101
+C248 - S1 → S3 → S4 → S52 → S75 → S76 → S77 → S78 → S100
+C249 - S1 → S3 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S100
+C250 - S1 → S3 → S5 → S53 → S96
+C251 - S1 → S3 → S5 → S53 → S54 → S96
+C252 - S1 → S3 → S5 → S53 → S55 → S96
+C253 - S1 → S3 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S81 → S97
+C254 - S1 → S3 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S81 → S98
+C255 - S1 → S3 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S81 → S99
+C256 - S1 → S3 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S82 → S100
+C257 - S1 → S3 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S101
+C258 - S1 → S3 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S100
+C259 - S1 → S3 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S100
+C260 - S1 → S6 → S96
+C261 - S1 → S6 → S56 → S96
+C262 - S1 → S6 → S56 → S62 → S96
+C263 - S1 → S6 → S56 → S62 → S63 → S6 → S96
+C264 - S1 → S6 → S56 → S62 → S64 → S1 → S96
+C265 - S1 → S6 → S56 → S62 → S65 → S6 → S96
+C266 - S1 → S6 → S56 → S62 → S66 → S19 → S96
+C267 - S1 → S6 → S56 → S62 → S67 → S6 → S96
+C268 - S1 → S6 → S56 → S62 → S68 → S62 → S96
+C269 - S1 → S6 → S56 → S62 → S69 → S62 → S96
+C270 - S1 → S6 → S56 → S62 → S70 → S62 → S96
+C271 - S1 → S6 → S56 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C272 - S1 → S6 → S56 → S62 → S71 → S94
+C273 - S1 → S6 → S56 → S62 → S72 → S94
+C274 - S1 → S6 → S56 → S62 → S73 → S94
+C275 - S1 → S6 → S56 → S62 → S74 → S94
+C276 - S1 → S6 → S56 → S62 → S93
+C277 - S1 → S6 → S57 → S96
+C278 - S1 → S6 → S57 → S62 → S96
+C279 - S1 → S6 → S57 → S62 → S63 → S6 → S96
+C280 - S1 → S6 → S57 → S62 → S64 → S1 → S96
+C281 - S1 → S6 → S57 → S62 → S65 → S6 → S96
+C282 - S1 → S6 → S57 → S62 → S66 → S19 → S96
+C283 - S1 → S6 → S57 → S62 → S67 → S6 → S96
+C284 - S1 → S6 → S57 → S62 → S68 → S62 → S96
+C285 - S1 → S6 → S57 → S62 → S69 → S62 → S96
+C286 - S1 → S6 → S57 → S62 → S70 → S62 → S96
+C287 - S1 → S6 → S57 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C288 - S1 → S6 → S57 → S62 → S71 → S94
+C289 - S1 → S6 → S57 → S62 → S72 → S94
+C290 - S1 → S6 → S57 → S62 → S73 → S94
+C291 - S1 → S6 → S57 → S62 → S74 → S94
+C292 - S1 → S6 → S57 → S62 → S93
+C293 - S1 → S6 → S58 → S96
+C294 - S1 → S6 → S58 → S62 → S96
+C295 - S1 → S6 → S58 → S62 → S63 → S6 → S96
+C296 - S1 → S6 → S58 → S62 → S64 → S1 → S96
+C297 - S1 → S6 → S58 → S62 → S65 → S6 → S96
+C298 - S1 → S6 → S58 → S62 → S66 → S19 → S96
+C299 - S1 → S6 → S58 → S62 → S67 → S6 → S96
+C300 - S1 → S6 → S58 → S62 → S68 → S62 → S96
+C301 - S1 → S6 → S58 → S62 → S69 → S62 → S96
+C302 - S1 → S6 → S58 → S62 → S70 → S62 → S96
+C303 - S1 → S6 → S58 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C304 - S1 → S6 → S58 → S62 → S71 → S94
+C305 - S1 → S6 → S58 → S62 → S72 → S94
+C306 - S1 → S6 → S58 → S62 → S73 → S94
+C307 - S1 → S6 → S58 → S62 → S74 → S94
+C308 - S1 → S6 → S58 → S62 → S93
+C309 - S1 → S6 → S59 → S96
+C310 - S1 → S6 → S59 → S62 → S96
+C311 - S1 → S6 → S59 → S62 → S63 → S6 → S96
+C312 - S1 → S6 → S59 → S62 → S64 → S1 → S96
+C313 - S1 → S6 → S59 → S62 → S65 → S6 → S96
+C314 - S1 → S6 → S59 → S62 → S66 → S19 → S96
+C315 - S1 → S6 → S59 → S62 → S67 → S6 → S96
+C316 - S1 → S6 → S59 → S62 → S68 → S62 → S96
+C317 - S1 → S6 → S59 → S62 → S69 → S62 → S96
+C318 - S1 → S6 → S59 → S62 → S70 → S62 → S96
+C319 - S1 → S6 → S59 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C320 - S1 → S6 → S59 → S62 → S71 → S94
+C321 - S1 → S6 → S59 → S62 → S72 → S94
+C322 - S1 → S6 → S59 → S62 → S73 → S94
+C323 - S1 → S6 → S59 → S62 → S74 → S94
+C324 - S1 → S6 → S59 → S62 → S93
+C325 - S1 → S6 → S60 → S96
+C326 - S1 → S6 → S60 → S62 → S96
+C327 - S1 → S6 → S60 → S62 → S63 → S6 → S96
+C328 - S1 → S6 → S60 → S62 → S64 → S1 → S96
+C329 - S1 → S6 → S60 → S62 → S65 → S6 → S96
+C330 - S1 → S6 → S60 → S62 → S66 → S19 → S96
+C331 - S1 → S6 → S60 → S62 → S67 → S6 → S96
+C332 - S1 → S6 → S60 → S62 → S68 → S62 → S96
+C333 - S1 → S6 → S60 → S62 → S69 → S62 → S96
+C334 - S1 → S6 → S60 → S62 → S70 → S62 → S96
+C335 - S1 → S6 → S60 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C336 - S1 → S6 → S60 → S62 → S71 → S94
+C337 - S1 → S6 → S60 → S62 → S72 → S94
+C338 - S1 → S6 → S60 → S62 → S73 → S94
+C339 - S1 → S6 → S60 → S62 → S74 → S94
+C340 - S1 → S6 → S60 → S62 → S93
+C341 - S1 → S6 → S61 → S96
+C342 - S1 → S6 → S61 → S62 → S96
+C343 - S1 → S6 → S61 → S62 → S63 → S6 → S96
+C344 - S1 → S6 → S61 → S62 → S64 → S1 → S96
+C345 - S1 → S6 → S61 → S62 → S65 → S6 → S96
+C346 - S1 → S6 → S61 → S62 → S66 → S19 → S96
+C347 - S1 → S6 → S61 → S62 → S67 → S6 → S96
+C348 - S1 → S6 → S61 → S62 → S68 → S62 → S96
+C349 - S1 → S6 → S61 → S62 → S69 → S62 → S96
+C350 - S1 → S6 → S61 → S62 → S70 → S62 → S96
+C351 - S1 → S6 → S61 → S62 → S68 → S62 → S69 → S62 → S70 → S62 → S96
+C352 - S1 → S6 → S61 → S62 → S71 → S94
+C353 - S1 → S6 → S61 → S62 → S72 → S94
+C354 - S1 → S6 → S61 → S62 → S73 → S94
+C355 - S1 → S6 → S61 → S62 → S74 → S94
+C356 - S1 → S6 → S61 → S62 → S93
+C357 - S1 → S7 → S96
+C358 - S1 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S97
+C359 - S1 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S98
+C360 - S1 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S99
+C361 - S1 → S7 → S75 → S76 → S77 → S78 → S80 → S82 → S100
+C362 - S1 → S7 → S75 → S76 → S77 → S78 → S80 → S101
+C363 - S1 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S97
+C364 - S1 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S98
+C365 - S1 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S99
+C366 - S1 → S7 → S75 → S76 → S77 → S79 → S80 → S82 → S100
+C367 - S1 → S7 → S75 → S76 → S77 → S79 → S80 → S101
+C368 - S1 → S7 → S75 → S100
+C369 - S1 → S7 → S75 → S76 → S100
+C370 - S1 → S7 → S75 → S76 → S77 → S100
+C371 - S1 → S7 → S75 → S76 → S77 → S78 → S100
+C372 - S1 → S7 → S75 → S76 → S77 → S79 → S100
+C373 - S1 → S7 → S75 → S76 → S77 → S78 → S80 → S100
+C374 - S1 → S7 → S75 → S76 → S77 → S79 → S80 → S100
+C375 - S1 → S8 → S96
+C376 - S1 → S8 → S83 → S84 → S85 → S87 → S107
+C377 - S1 → S8 → S83 → S84 → S85 → S87 → S108
+C378 - S1 → S8 → S83 → S84 → S86 → S87 → S107
+C379 - S1 → S8 → S83 → S84 → S86 → S87 → S108
+C380 - S1 → S8 → S83 → S84 → S87 → S109
+C381 - S1 → S8 → S83 → S110
+C382 - S1 → S8 → S83 → S84 → S110
+C383 - S1 → S8 → S83 → S84 → S85 → S110
+C384 - S1 → S8 → S83 → S84 → S86 → S110
+C385 - S1 → S8 → S88 → S89 → S111
+C386 - S1 → S8 → S88 → S89 → S112
+C387 - S1 → S8 → S88 → S89 → S113
+C388 - S1 → S8 → S88 → S114
+C389 - S1 → S8 → S88 → S89 → S114
+C390 - S1 → S8 → S88 → S89 → S83 → S84 → S85 → S87 → S107
+C391 - S1 → S8 → S88 → S89 → S83 → S84 → S85 → S87 → S108
+C392 - S1 → S8 → S88 → S89 → S83 → S84 → S86 → S87 → S107
+C393 - S1 → S8 → S88 → S89 → S83 → S84 → S86 → S87 → S108
+C394 - S1 → S8 → S88 → S89 → S83 → S84 → S87 → S109
+C395 - S1 → S9 → S96
+C396 - S1 → S9 → S90 → S91 → S92 → S102
+C397 - S1 → S9 → S90 → S91 → S92 → S103
+C398 - S1 → S9 → S90 → S91 → S92 → S104
+C399 - S1 → S9 → S90 → S91 → S105
+C400 - S1 → S9 → S90 → S106
+C401 - S1 → S9 → S90 → S91 → S106
+C402 - S1 → S10 → S94
+C403 - S1 → S11 → S94
+C404 - S1 → S12 → S94
+C405 - S1 → S13 → S94
+C406 - S1 → S14 → S94
+C407 - S1 → S15 → S1 → S96
+C408 - S1 → S16 → S2 → S96
+C409 - S1 → S17 → S4 → S96
+C410 - S1 → S18 → S5 → S96
+C411 - S1 → S19 → S6 → S96
+C412 - S1 → S20 → S6 → S96
+C413 - S1 → S21 → S7 → S96
+C414 - S1 → S22 → S9 → S96
+C415 - S1 → S23 → S95
+C416 - S1 → S21 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S97
+C417 - S1 → S21 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S98
+C418 - S1 → S21 → S7 → S75 → S76 → S77 → S78 → S80 → S81 → S99
+C419 - S1 → S21 → S7 → S75 → S76 → S77 → S78 → S80 → S82 → S100
+C420 - S1 → S21 → S7 → S75 → S76 → S77 → S78 → S80 → S101
+C421 - S1 → S21 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S97
+C422 - S1 → S21 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S98
+C423 - S1 → S21 → S7 → S75 → S76 → S77 → S79 → S80 → S81 → S99
+C424 - S1 → S21 → S7 → S75 → S76 → S77 → S79 → S80 → S82 → S100
+C425 - S1 → S21 → S7 → S75 → S76 → S77 → S79 → S80 → S101
+C426 - S1 → S21 → S7 → S75 → S100
+C427 - S1 → S21 → S7 → S75 → S76 → S100
+C428 - S1 → S21 → S7 → S75 → S76 → S77 → S100
+C429 - S1 → S21 → S7 → S75 → S76 → S77 → S78 → S100
+C430 - S1 → S21 → S7 → S75 → S76 → S77 → S79 → S100
+C431 - S1 → S21 → S7 → S75 → S76 → S77 → S78 → S80 → S100
+C432 - S1 → S21 → S7 → S75 → S76 → S77 → S79 → S80 → S100
+C433 - S1 → S22 → S9 → S90 → S91 → S92 → S102
+C434 - S1 → S22 → S9 → S90 → S91 → S92 → S103
+C435 - S1 → S22 → S9 → S90 → S91 → S92 → S104
+C436 - S1 → S22 → S9 → S90 → S91 → S105
+C437 - S1 → S22 → S9 → S90 → S106
+C438 - S1 → S22 → S9 → S90 → S91 → S106
+C439 - S1 → S17 → S4 → S51 → S96
+C440 - S1 → S17 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S81 → S97
+C441 - S1 → S17 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S81 → S98
+C442 - S1 → S17 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S81 → S99
+C443 - S1 → S17 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S82 → S100
+C444 - S1 → S17 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S101
+C445 - S1 → S17 → S4 → S52 → S75 → S76 → S77 → S78 → S100
+C446 - S1 → S17 → S4 → S52 → S75 → S76 → S77 → S78 → S80 → S100
+C447 - S1 → S18 → S5 → S53 → S96
+C448 - S1 → S18 → S5 → S53 → S54 → S96
+C449 - S1 → S18 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S81 → S97
+C450 - S1 → S18 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S81 → S98
+C451 - S1 → S18 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S81 → S99
+C452 - S1 → S18 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S82 → S100
+C453 - S1 → S18 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S101
+C454 - S1 → S18 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S100
+C455 - S1 → S18 → S5 → S53 → S55 → S75 → S76 → S77 → S79 → S80 → S100
+C456 - S1 → S2 → S96
+C457 - S1 → S4 → S96
+C458 - S1 → S5 → S96
+C459 - S2 → S1 → S96
+C460 - S2 → S3 → S96
+C461 - S2 → S4 → S96
+C462 - S2 → S5 → S96
+C463 - S2 → S6 → S96
+C464 - S2 → S7 → S96
+C465 - S2 → S8 → S96
+C466 - S2 → S9 → S96
+C467 - S4 → S1 → S96
+C468 - S4 → S2 → S96
+C469 - S4 → S3 → S96
+C470 - S4 → S5 → S96
+C471 - S4 → S6 → S96
+C472 - S4 → S7 → S96
+C473 - S4 → S8 → S96
+C474 - S4 → S9 → S96
+C475 - S5 → S1 → S96
+C476 - S5 → S2 → S96
+C477 - S5 → S3 → S96
+C478 - S5 → S4 → S96
+C479 - S5 → S6 → S96
+C480 - S5 → S7 → S96
+C481 - S5 → S8 → S96
+C482 - S5 → S9 → S96
+C483 - S6 → S1 → S96
+C484 - S6 → S2 → S96
+C485 - S6 → S3 → S96
+C486 - S6 → S4 → S96
+C487 - S6 → S5 → S96
+C488 - S6 → S7 → S96
+C489 - S6 → S8 → S96
+C490 - S6 → S9 → S96
+C491 - S7 → S1 → S96
+C492 - S7 → S2 → S96
+C493 - S7 → S3 → S96
+C494 - S7 → S4 → S96
+C495 - S7 → S5 → S96
+C496 - S7 → S6 → S96
+C497 - S7 → S8 → S96
+C498 - S7 → S9 → S96
+
+Gráfica de los porcentajes de exito de estados de salida, incluso errores en formularios, un boton que diga la propuesta de mejora para ese 
+casoe specifico de simulación, como hacer qu elas personas no abandonen en x estado, el boton habla del porcentaje de abandono 
+y el estado especifico, breve decsriupci+on de los estados y como se podría mejora.
